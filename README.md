@@ -1,1 +1,2 @@
-# test1
+# rancher-cattle-autocatalog
+rancher custom catalog auto-create
