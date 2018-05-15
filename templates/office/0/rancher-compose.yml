@@ -1,0 +1,12 @@
+.catalog:
+  name: "office"
+  version: "CVE-2017-0199"
+  description: "https://www.hackersb.cn/hacker/228.html"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true

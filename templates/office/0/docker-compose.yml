@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/office:CVE-2017-0199
+   tty: true
+   ports:
+    - "${PORT}:80"
